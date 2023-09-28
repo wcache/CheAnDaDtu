@@ -67,7 +67,7 @@ class DTU(object):
 
     def up_transaction_handler(self):
         while True:
-            data = self.serial.read(1024, timeout=100)
+            data = self.serial.read(1024, timeout=-1)
             if data:
                 logger.info('up transfer msg: {}'.format(data))
                 self.cloud.send(data)
