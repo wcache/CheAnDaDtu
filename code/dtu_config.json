@@ -18,7 +18,7 @@
         "ip_type":"IPv4",
         "domain": "47.113.147.169",
         "port": "6666",
-        "keep_alive": 1
+        "keep_alive": 5
     },
     "uart_config": {
         "uart": 2,
@@ -27,6 +27,6 @@
         "parity": 0,
         "stopbits": 1,
         "flowctl": 0,
-        "rs485_direction_pin": "28"
+        "rs485_direction_pin": "14"
     }
 }
